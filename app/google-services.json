@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "881272297141",
-    "firebase_url": "https://mylimo-d3bdd.firebaseio.com",
-    "project_id": "mylimo-d3bdd",
-    "storage_bucket": "mylimo-d3bdd.appspot.com"
+    "project_number": "37788295484",
+    "firebase_url": "https://mylimo-30c35.firebaseio.com",
+    "project_id": "mylimo-30c35",
+    "storage_bucket": "mylimo-30c35.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:881272297141:android:5f2a3237eb6a8296",
+        "mobilesdk_app_id": "1:37788295484:android:5f2a3237eb6a8296",
         "android_client_info": {
-          "package_name": "com.info121.titalimo"
+          "package_name": "com.info121.mylimo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "881272297141-h9c8ku4tn0bul2i8787cgtj7pfphqhq4.apps.googleusercontent.com",
+          "client_id": "37788295484-j4grob9c9pd9l6l23g5jnt22ekg0sqld.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB2sQHxDzQYsMJ_1VCooK_xb3JcNa6j1_E"
+          "current_key": "AIzaSyDmVWx6kxKVoLQMZm57Fm0QaiPKaaa5c5Y"
         }
       ],
       "services": {

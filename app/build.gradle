@@ -4,11 +4,11 @@ android {
     compileSdkVersion 27
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "com.info121.titalimo"
+        applicationId "com.info121.mylimo"
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 25
-        versionName "2.9"
+        versionCode 26
+        versionName "2.10"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }

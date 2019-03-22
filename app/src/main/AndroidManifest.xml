@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.info121.titalimo">
+    package="com.info121.mylimo">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -18,7 +18,7 @@
 
 
     <application
-        android:name=".App"
+        android:name="com.info121.mylimo.App"
         android:allowBackup="false"
         android:icon="@mipmap/my_limo_launcher"
         android:label="@string/app_name"
@@ -26,34 +26,34 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
-        <activity android:name=".activities.LoginActivity">
+        <activity android:name="com.info121.mylimo.activities.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.WebViewActivity" />
+        <activity android:name="com.info121.mylimo.activities.WebViewActivity" />
 
-        <service android:name=".services.SmartLocationService" />
-        <service android:name=".services.ShowDialogService" />
-        <service android:name=".services.FirebaseMessagingService">
+        <service android:name="com.info121.mylimo.services.SmartLocationService" />
+        <service android:name="com.info121.mylimo.services.ShowDialogService" />
+        <service android:name="com.info121.mylimo.services.FirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name=".services.FirebaseTokenService">
+        <service android:name="com.info121.mylimo.services.FirebaseTokenService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
 
         <activity
-            android:name=".activities.DialogActivity"
+            android:name="com.info121.mylimo.activities.DialogActivity"
             android:excludeFromRecents="true"
             android:theme="@style/Theme.AppCompat.Dialog" />
-        <activity android:name=".activities.ToneSelection" />
-        <activity android:name=".activities.SignaturePadActivity"></activity>
+        <activity android:name="com.info121.mylimo.activities.ToneSelection" />
+        <activity android:name="com.info121.mylimo.activities.SignaturePadActivity"></activity>
     </application>
 
 </manifest>

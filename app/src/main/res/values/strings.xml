@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Tita Limo</string>
-    <string name="AppName">Tita Limo</string>
-    <string name="message_version_outdated">There is a new version for Tita Limo. Please update on Google Playstore. Tita Limo will is now closing.</string>
+    <string name="app_name">My Limo</string>
+    <string name="AppName">My Limo</string>
+    <string name="message_version_outdated">There is a new version for My Limo. Please update on Google Playstore. My Limo will is now closing.</string>
 
 </resources>

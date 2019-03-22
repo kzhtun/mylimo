@@ -1,4 +1,4 @@
-package com.info121.titalimo;
+package com.info121.mylimo;
 
 import org.junit.Test;
 
